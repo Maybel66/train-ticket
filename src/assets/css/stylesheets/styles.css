@@ -1,0 +1,144 @@
+.main-bg-color {
+  background-color: #e0e0e0;
+  height: 100vh;
+}
+.login-body-left {
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.login-form {
+  height: 60%;
+  width: 450px;
+  background-color: #fffefe;
+  margin: 20%;
+  margin-left: -5%;
+  border-radius: 5px;
+  padding: 5%;
+  padding-top: 10%;
+}
+.Body-Title {
+  margin-top: -10%;
+  background-color: #282c34;
+  font-family: "century-gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Body-Text {
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 40px;
+}
+
+.field-text {
+  margin-top: 20px;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: grey;
+}
+.seat-available {
+  background-color: orange;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.seat-header {
+  background-color: #282c34;
+  padding: 20px;
+}
+.seat-text {
+  color: #ffffff;
+}
+.seat-selection {
+  background-color: lightgrey;
+  margin-top: 10%;
+  padding: 5%;
+}
+.pick-seat {
+  border-style: groove;
+  border-color: grey;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.seat-container {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flex-container-seat {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container3 > div {
+  width: 100px;
+  margin-top: 20px;
+  text-align: center;
+}
+.selected-seat > div {
+  background-color: green;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.booked-seat > div {
+  background-color: red;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.book-now {
+  text-align: center;
+  border-style: groove;
+  border-color: green;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: green;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800px;
+}
+.divider {
+  height: 20px;
+}
+.passenger-details {
+  background-color: #fff;
+  margin-top: 20px;
+  border-style: groove;
+  border-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
